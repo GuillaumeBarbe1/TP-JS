@@ -1,0 +1,23 @@
+@font-face
+{
+    font-family:'Dosis Regular';
+    src:url('../fonts/dosis/dosisRegular.ttf');
+}
+
+@font-face
+{
+    font-family:'Dosis Semi Bold';
+    src:url('../fonts/dosis/dosisSemiBold.ttf');
+}
+
+@font-face
+{
+    font-family:'Dosis Medium';
+    src:url('../fonts/dosis/dosisMedium.ttf');
+}
+
+@font-face
+{
+    font-family:'Sushi Brush';
+    src:url('../fonts/sushiBrush/sushiBrushRegular.ttf');
+}

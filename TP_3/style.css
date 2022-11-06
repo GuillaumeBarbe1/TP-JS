@@ -1,0 +1,172 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-size: 62.5%;
+    margin: 2%;
+
+}
+#mainHeaderContainer {
+    display: flex;
+}
+
+#mainHeaderContainer #mainHeaderTitle {
+    font-size: 2rem;
+    margin-bottom: 2%;
+    color: #211F20;
+}
+
+#introMainContainer {
+    background: url("img/background.png") no-repeat 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+#introMainContainer .introContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 3%;
+}
+
+#introMainContainer .introContentContainer .introContentImg {
+    margin-bottom: 3%;
+    width: 90%;
+}
+
+#introMainContainer .introContentContainer .introContentText {
+    width: 80%;
+    font-size: 1.1rem;
+    background-color: #211F20;
+    padding: 5%;
+    color: #FFF;
+    text-align: justify;
+    font-family: "Raleway Regular", sans-serif;
+}
+
+#introMainContainer .introContentContainer .mediumTitle {
+    background-color: #FFF;
+    width: 88%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Raleway SemiBold", sans-serif;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+#discographyMainContainer {
+    margin-top: 3%;
+    display: flex;
+}
+
+#discographyMainContainer .discographyAlbumContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    font-family: "Raleway Regular", sans-serif;
+}
+
+#discographyMainContainer .discographyAlbumContainer .smallTitle{
+    font-family: "Raleway SemiBold", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin: 2%;
+    text-align: center;
+}
+
+#discographyMainContainer .discographyAlbumContainer .albumReleaseDate{
+    font-size: .9rem;
+}
+
+
+#discographyMainContainer .discographyAlbumContainer .discographyAlbumImg {
+    width: 70%;
+    background-color: #211F20;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+#discographyMainContainer .discographyAlbumContainer .albumPrice{
+    margin-top: 2%;
+    font-size: 1.1rem;
+}
+
+#discographyMainContainer .discographyAlbumContainer .purchaseAlbumButton {
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 2%;
+    text-transform: uppercase;
+    padding: 2%;
+    color:  #211F20;
+    background-color: #FFF;
+    border: 6px solid #211F20;
+}
+
+#discographyMainContainer .discographyAlbumContainer .purchaseAlbumButton:hover {
+    background-color: #211F20;
+    color: #FFF;
+    border: 6px solid #FFF;
+}
+
+
+#videoContainer{
+    display: flex;
+    justify-content: space-around;
+    background: url("img/background.png") no-repeat 100%;
+    margin: 5% 0;
+    padding: 5% 3%;
+    background-size: cover;
+}
+
+
+#mainFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Raleway Regular", sans-serif;
+    font-size: .9rem;
+}
+
+#mainFooter #footerNavMainContainer{
+    width: 100%;
+}
+
+#mainFooter #footerNavMainContainer #footerNavListContainer{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+#mainFooter #footerNavMainContainer #footerNavListContainer .footerNavListItem:not(:last-child){
+    margin-right: 2%;
+}
+
+#mainFooter #socialMediaNav{
+    width: 20%;
+}
+
+#mainFooter #socialMediaNav ul{
+    display: none;
+}
+
+
+#mainFooter #socialMediaNav .socialMediaItem a{
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+    text-align: center;
+}
+
+#mainFooter #socialMediaNav .socialMediaItem .socialMediaLogo{
+    width: 50px;
+    margin-bottom: 4%;
+}
+
+#mainFooter #footerCopyright{
+    margin-top: 2%;
+}
